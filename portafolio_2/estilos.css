@@ -73,9 +73,63 @@ body {
                 padding-right: 80px;
             }
         }
+        
         .main {
             grid-area: main;
+            background-color: #010302;
+            color: #fff;
+
+            
+            h2 {
+                font-family: Ubuntu;
+                font-size: 28px;
+                /* text-transform: uppercase;*/
+                color: #84b42e;
+                padding: 5px 0;
+            }
+            h3 {
+                font-family: Ubuntu;
+                font-size: 23px;
+                /* text-transform: uppercase;*/
+                color: #84b42e;
+                padding: 5px 0;
+            }
+            p {
+                font-family: Inter;
+                font-size: 15px;
+                color: #fff;
+            }
+
+            .inicio {
+                background-color:#f2f2f2;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+
+                .inicio-descripcion {
+                    background-color: #010302;
+                    padding: 10px;
+                }
+                .inicio-imagen {
+                    background-color: #010302;
+                    height: 400px;
+                }
+            }
+
+            .acerca {
+
+            }
+
+            .proyectos {
+                background-color:#010302;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
         }
+
         .footer {
             grid-area: footer;
         }
