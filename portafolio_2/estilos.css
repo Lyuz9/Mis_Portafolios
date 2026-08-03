@@ -35,10 +35,10 @@ body {
         padding: 20px;
         gap: 20px;
 
-        grid-template-areas: 
-        'header'
-        'main'
-        'footer';
+        grid-template-areas:
+            'header'
+            'main'
+            'footer';
 
         .header {
             grid-area: header;
@@ -63,6 +63,7 @@ body {
             nav {
                 display: flex;
                 gap: 30px;
+
                 a {
                     font-family: Inter;
                     font-size: 15px;
@@ -70,16 +71,17 @@ body {
                     text-decoration: none;
                     text-transform: uppercase;
                 }
+
                 padding-right: 80px;
             }
         }
-        
+
         .main {
             grid-area: main;
             background-color: #010302;
             color: #fff;
 
-            
+
             h2 {
                 font-family: Ubuntu;
                 font-size: 28px;
@@ -87,6 +89,7 @@ body {
                 color: #84b42e;
                 padding: 5px 0;
             }
+
             h3 {
                 font-family: Ubuntu;
                 font-size: 23px;
@@ -94,6 +97,7 @@ body {
                 color: #84b42e;
                 padding: 5px 0;
             }
+
             p {
                 font-family: Inter;
                 font-size: 15px;
@@ -101,37 +105,198 @@ body {
             }
 
             .inicio {
-                background-color:#f2f2f2;
+                /* background-color:#f2f2f2; */
                 padding: 20px;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px;
 
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+
                 .inicio-descripcion {
                     background-color: #010302;
                     padding: 10px;
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
                 }
+
                 .inicio-imagen {
                     background-color: #010302;
                     height: 400px;
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
                 }
             }
 
             .acerca {
+                /* background-color: #f2f2f2; */
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
 
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+
+                .acerca-imagen {
+                    background-color: #010302;
+                    padding: 10px;
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
+
+                .acerca-de-mi {
+                    background-color: #010302;
+                    padding: 10px;
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
             }
 
             .proyectos {
-                background-color:#010302;
+                background-color: #010302;
                 padding: 20px;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
+
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+
+                .proyectos-introduccion {
+                    grid-column: 1 / -1;
+                    text-align: center;
+                }
+
+                .proyecto {
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
+            }
+
+            .servicios {
+                background-color: #010302;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+
+                .servicios-introduccion {
+                    grid-column: 1 / -1;
+                    text-align: center;
+                }
+
+                .servicio {
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
+            }
+
+            .contactos {
+                background-color: #010302;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+
+                .contacto-introduccion {
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
+
+                .caja-formulario {
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
             }
         }
 
         .footer {
             grid-area: footer;
+            background-color: #010302;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            /* Borde en blanco para no perder cada caja */
+            border: 1px solid #fff;
+            border-radius: 5px;
+
+            h2 {
+                font-family: Ubuntu;
+                font-size: 28px;
+                /* text-transform: uppercase;*/
+                color: #84b42e;
+                padding: 5px 0;
+            }
+
+            h3 {
+                font-family: Ubuntu;
+                font-size: 23px;
+                /* text-transform: uppercase;*/
+                color: #84b42e;
+                padding: 5px 0;
+            }
+
+            p {
+                font-family: Inter;
+                font-size: 15px;
+                color: #fff;
+            }
+
+            .footer-introduccion {
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+
+            .footer-navegacion {
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+
+            .foooter-redes-sociales {
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+            
+            .derechos-autor {
+                /* Borde en blanco para no perder cada caja */
+                border: 1px solid #fff;
+                border-radius: 5px;
+
+                grid-column: 1 / -1;
+                text-align: center;
+            }
         }
     }
 }
