@@ -148,7 +148,7 @@ body {
 
                     /* Borde en blanco para no perder cada caja */
                     border: 1px solid #fff;
-                    border-radius: 5px; 
+                    border-radius: 5px;
                     min-height: 400px;
                     /* height: 400px; */
 
@@ -164,7 +164,7 @@ body {
                             display: flex;
                             gap: 18px;
                             justify-content: center;
-                            
+
                             button {
                                 width: 150px;
                                 height: 50px;
@@ -198,7 +198,7 @@ body {
                                 }
                             }
                         }
-                        
+
                     }
 
                     .sociales {
@@ -229,7 +229,7 @@ body {
 
                     /* Borde en blanco para no perder cada caja */
                     border: 1px solid #fff;
-                    border-radius: 5px; 
+                    border-radius: 5px;
                     text-align: center;
 
                     .habitacion {
@@ -243,8 +243,8 @@ body {
                 /* background-color: #f2f2f2; */
                 padding: 10vh 20px;
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 20px;
+                grid-template-columns: repeat(3, 1fr);
+                /* gap: 20px; */
 
                 /* Borde en blanco para no perder cada caja */
                 border: 1px solid #fff;
@@ -252,28 +252,60 @@ body {
 
                 .acerca-imagen {
                     background-color: #010302;
-                    padding: 10px;
+                    /* padding: 10px; */
+                    height: 480px;
+                    width: auto;
 
                     /* Borde en blanco para no perder cada caja */
                     border: 1px solid #fff;
                     border-radius: 5px;
                     text-align: center;
 
-                    img {
+                    .mi-foto {
                         border-radius: 5px;
                         width: auto;
-                        height: 375px;
+                        height: 480px;
                     }
                 }
 
                 .acerca-de-mi {
                     background-color: #010302;
-                    padding: 10px;
+                    padding: 20px;
 
                     /* Borde en blanco para no perder cada caja */
                     border: 1px solid #fff;
                     border-radius: 5px;
-                    height: 400px;
+                    height: 480px;
+
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+
+                .habilidades {
+                    background-color: #010302;
+                    padding: 20px;
+
+                    /* Borde en blanco para no perder cada caja */
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                    height: 480px;
+                    gap: 20px;
+
+                    .skills {
+                        display: block;
+                        padding: 5px;
+                        flex-direction: row;
+
+                        .habilidad {
+                            width: 50px;
+                            height: 50px;
+                            /* margin: 15; */
+                            border-radius: 5px;
+                            /* border: 1px solid #ccc; */
+                            background-color: #171515;
+                        }
+                    }
                 }
             }
 
