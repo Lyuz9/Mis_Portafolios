@@ -84,7 +84,7 @@ body {
                     font-size: 30px;
                     text-transform: uppercase;
                     color: #84b42e;
-                    padding-left: 80px;
+
                 }
 
                 .logo {
@@ -256,7 +256,7 @@ body {
                         /* 5px */
                         border: 15px solid #171515;
                         width: auto;
-                        height: 550px;
+                        height: 500px;
                     }
                 }
             }
