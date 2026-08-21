@@ -4,18 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Gabriel</title>
 </head>
 
 <body>
+    <script src="./js/contacto.js"></script>
     <div class="contenedor">
+
         <header class="header">
-            <h1>Menu</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="titulo-navbar">
+                <h1>Gabo</h1>
+                <img class="icon-code" src="./img/icons/code.png" alt="">
+            </div>
+            <nav>
+                <a href="#">Proyectos</a>
+                <a href="#">Acerca de mí</a>
+                <a href="#">Contacto</a>
+                <a href="#">
+                    <button class="b-cv" type="button">Descargar CV</button>
+                </a>
+            </nav>
         </header>
+
         <main class="main">
+
             <section class="inicio">
                 <div class="intro-inicio">
                     <h2>Hola, Soy Gabriel</h2>
@@ -30,7 +44,9 @@
                             <button class="b-contactame">Contactame</button>
                         </div>
                         <div class="intro-redes">
-                            <p>redes</p>
+                            <img class="icono" src="./img/icons/github2.png" alt="">
+                            <img class="icono" src="./img/icons/discord.png" alt="">
+                            <img class="icono" src="./img/icons/instagram.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -42,57 +58,225 @@
             <section class="proyectos">
                 <div class="intro-proyectos">
                     <h1>Proyectos</h1>
+                    <button class="b-ver-proyectos" type="button">Ver más</button>
                 </div>
                 <div class="proyecto">
-                    <h2>Proyecto</h2>
+                    <div class="descri-proyecto">
+                        <div class="info-proyecto">
+                            <img class="img-proyecto" src="./img/proyecto1.png" alt="">
+                            <h2>Pronóstico de ventas</h2>
+                            <p>
+                                Herramienta web desarrollada en php diseñada para el registro, procesamiento y
+                                cumplimiento
+                                de
+                                ventas futuras.
+                            </p>
+                        </div>
+                        <div class="tecn-proyecto">
+                            <h3>Tecnologías usadas</h3>
+                            <div>
+                                <img class="icono" src="./img/icons/PHP.svg" alt="PHP">
+                                <img class="icono" src="./img/icons/HTML.svg" alt="HTML">
+                                <img class="icono" src="./img/icons/CSS.svg" alt="CSS">
+                                <img class="icono" src="./img/icons/MySQL.svg" alt="MySQL">
+                            </div>
+                        </div>
+                        <a href="https://github.com/Lyuz9/Pronostico-ventas" target="_blank">
+                            <button class="b-verproyecto">Código</button>
+                        </a>
+                    </div>
                 </div>
                 <div class="proyecto">
-                    <h2>Proyecto</h2>
+                    <div class="descri-proyecto">
+                        <div class="info-proyecto">
+                            <img class="img-proyecto" src="./img/proyecto2.png" alt="">
+                            <h2>Linkfree a un tiktoker</h2>
+                            <p>
+                                Linkfree estético y funcional para un tiktoker dedicado al gaming y a la creación de
+                                contenido.
+                            </p>
+                        </div>
+                        <div class="tecn-proyecto">
+                            <h3>Tecnologías usadas</h3>
+                            <div>
+                                <img class="icono" src="./img/icons/HTML.svg" alt="HTML">
+                                <img class="icono" src="./img/icons/CSS.svg" alt="CSS">
+                            </div>
+                        </div>
+                        <a href="https://github.com/Lyuz9/shiffa_linkfree" target="_blank">
+                            <button class="b-verproyecto">Código</button>
+                        </a>
+                    </div>
                 </div>
             </section>
 
             <section class="acerca-de-mi">
-                <div class="foto-acerca">
-                    <h1>Foto</h1>
-                </div>
                 <div class="intro-acerca">
                     <h1>Acerca de mi</h1>
                 </div>
+                <div class="foto-acerca">
+                    <img class="img-yo" src="./img/yo.jpg" alt="Imagen de mi">
+                </div>
+                <div class="info-acerca">
+                    <div>
+                        <h1>Luis Gabriel</h1>
+                        <p>
+                            Soy un desarrollador web con enfoque en crear proyectos útiles y atractivos. Disfruto
+                            resolver
+                            problemas, aprender cosas nuevas y mejorar cada dia como desarrollador.
+                        </p>
+                    </div>
+                    <div class="obj-acerca">
+                        <p><img class="icono-acerca" src="./img/icons/laptop-code.png" alt="Laptop-Code"> Actualmente
+                            estoy especializándome en el diseño web profesional.</p>
+                        <p><img class="icono-acerca" src="./img/icons/gear.png" alt="Engranaje"> Creo que siempre hay
+                            algo nuevo por aprender.</p>
+                        <p><img class="icono-acerca" src="./img/icons/dragon.png" alt="Terminal"> Estoy aprendiendo
+                            otros cosas como la ciberseguridad.</p>
+                        <p><img class="icono-acerca" src="./img/icons/code-solid.png" alt="Terminal"> Mi objetivo es
+                            desarrollar aplicaciones web modernas, contribuir a proyectos y vivir de la programación.
+                        </p>
+                    </div>
+
+                    <!--
+                    <h2>Educación</h2>
+                    <p>Universidad Politecnica de Queretaro</p>
+                    <h2>Experiencia</h2>
+                    <p>Analista de Desarrollo - Euroquip</p>
+                    <ul>
+                        <li>Desarrollo y mantenimiento de herramientas web.</li>
+                        <li>Soporte técnico a usuarios.</li>
+                        <li>Gestión de información y reportes.</li>
+                    </ul>
+                    -->
+
+                </div>
+                <div class="tecnologias">
+                    <h1>Tecnologias</h1>
+                    <p>Lenguajes de programación</p>
+                    <img class="icono" src="./img/icons/PHP.svg" alt="PHP">
+                    <img class="icono" src="./img/icons/Python.svg" alt="Python">
+                    <p>Maquetación</p>
+                    <img class="icono" src="./img/icons/HTML.svg" alt="HTML">
+                    <img class="icono" src="./img/icons/CSS.svg" alt="CSS">
+                    <p>Frameworks</p>
+                    <img class="icono" src="./img/icons/Laravel.svg" alt="Laravel">
+                    <p>Diseño</p>
+                    <img class="icono" src="./img/icons/Figma.svg" alt="Figma">
+                    <p>En proceso de aprender</p>
+                    <img class="icono" src="./img/icons/JavaScript.svg" alt="JavaScript">
+                    <img class="icono" src="./img/icons/TailwindCSS.svg" alt="TailwindCSS">
+                    <img class="icono" src="./img/icons/React.svg" alt="React">
+                    <img class="icono" src="./img/icons/Wordpress.svg" alt="Wordpress">
+                </div>
             </section>
 
+            <!--
             <section class="habilidades">
                 <div class="intro-habilidad">
                     <h1>Mis habilidades</h1>
                 </div>
                 <div class="habilidad">
-                    <h1>conocimientos</h1>
+                    <h2>conocimientos</h2>
                 </div>
                 <div class="habilidad">
-                    <h1>conocimientos</h1>
+                    <h2>conocimientos</h2>
                 </div>
                 <div class="habilidad">
-                    <h1>conocimientos</h1>
+                    <h2>conocimientos</h2>
                 </div>
             </section>
+            -->
 
             <section class="contacto">
-                <div class="intro-contacto">
+
+                <div class="datos-contacto">
                     <h1>Contacto</h1>
+
+                    <p>
+                        ¿Tienes un proyecto en mente? ¡Hablemos y hagámoslo realidad!
+                    </p>
+
+                    <p>
+                        Puedes enviarme un mensaje utilizando el formulario
+                        o contactarme directamente por correo.
+                    </p>
                 </div>
+
                 <div class="formulario-contacto">
-                    <h1>Formulario</h1>
+
+                    <form action="#" class="form-contacto">
+
+                        <div class="contactos">
+
+                            <div class="campo">
+                                <label for="nombre">Nombre</label>
+                                <input class="input-form" id="nombre" name="nombre" type="text" placeholder="Tu nombre"
+                                    required>
+                            </div>
+
+                            <div class="campo">
+                                <label for="correo">Correo</label>
+                                <input class="input-form" id="correo" name="correo" type="email"
+                                    placeholder="tu@correo.com" required>
+                            </div>
+
+                        </div>
+
+                        <div class="mensaje">
+
+                            <label for="asunto">Asunto</label>
+                            <input class="input-asunto" id="asunto" name="asunto" type="text"
+                                placeholder="¿De qué quieres hablar?" required>
+
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="textarea-asunto" id="mensaje" name="mensaje"
+                                placeholder="Escribe tu mensaje..." required></textarea>
+
+                        </div>
+
+                        <div class="acciones-contacto">
+
+                            <button class="b-mensaje b-copiar" type="button" onclick="copiarCorreo()">
+                                Copiar Gmail
+                            </button>
+
+                            <button class="b-mensaje b-enviar" type="button" onclick="enviarCorreo()">
+                                Enviar mensaje
+                            </button>
+
+                        </div>
+
+                    </form>
+
                 </div>
+
             </section>
         </main>
         <footer class="footer">
-            <div>
-                <h1>Footer (logo y mini mensaje)</h1>
+            <div class="des-footer">
+                <h1>Gabo <img class="footer_icon" src="./img/icons/code-solid.png" alt=""></h1>
+                <h2>Desarrollador Web</h2>
+                <p>
+                    Contruyendo soluciones con código y pasión por la tecnología.
+                </p>
             </div>
-            <div>
-                <h1>Redireccion</h1>
+            <div class="nav-footer">
+                <h1>Navegación</h1>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Proyectos</a>
+                    <a href="#">Acerca de mí</a>
+                    <a href="#">Contacto</a>
+                </nav>
             </div>
-            <div>
-                <h1>Contacta conmigo</h1>
+            <div class="conec-conmigo">
+                <h1>Conecta conmigo</h1>
+                <div class="red-conmigo">
+                    <img class="icono" src="./img/icons/github2.png" alt="">
+                    <img class="icono" src="./img/icons/discord.png" alt="">
+                    <img class="icono" src="./img/icons/instagram.png" alt="">
+                </div>
             </div>
         </footer>
     </div>

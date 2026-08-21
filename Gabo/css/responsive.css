@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .inicio {
+        grid-template-columns: 1fr;
+        padding: 50px 20px;
+    }
+
+    .intro-inicio {
+        width: 100%;
+        max-width: none;
+        min-height: auto;
+    }
+
+}
