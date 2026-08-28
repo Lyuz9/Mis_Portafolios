@@ -80,7 +80,7 @@ body {
 
                 a {
                     font-family: 'Inter';
-                    font-size: 16px;
+                    font-size: 20px;
                     color: #fff;
                     text-decoration: none;
 
@@ -174,14 +174,14 @@ body {
                                 font-size: 17px;
 
                                 &:hover {
-                                    background-color: #171515;
+                                    background-color: #000;
                                     color: #fff;
                                     border-color: #465e18;
                                 }
                             }
 
                             .b-contactame {
-                                background-color: #171515;
+                                background-color: #000;
                                 color: #fff;
                                 font-size: 17px;
 
@@ -220,7 +220,7 @@ body {
 
             .proyectos {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 gap: 20px;
                 padding: 10vh 20px;
                 background-color: #010302;
@@ -438,37 +438,6 @@ body {
                         height: 50px;
                         width: auto;
                     }
-                }
-            }
-
-            .habilidades {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 20px;
-                padding: 20px;
-                background-color: #010302;
-
-                h1,
-                h2 {
-                    color: #fff;
-                }
-
-                .intro-habilidad {
-                    padding: 10px;
-                    grid-column: 1 / -1;
-                    border: 1px solid #fff;
-                    border-radius: 15px;
-
-                    h1 {
-                        color: #84b42e;
-                        text-align: justify;
-                    }
-                }
-
-                .habilidad {
-                    padding: 10px;
-                    border: 1px solid #fff;
-                    border-radius: 15px;
                 }
             }
 
