@@ -569,9 +569,9 @@ body {
                             color: #fff;
 
                             &:hover {
-                                background-color: #171515;
-                                border-color: #84b42e;
-
+                                background-color: #84b42e;
+                                color: #000;
+                                border-color: #465e18;
                             }
                         }
 
@@ -580,7 +580,7 @@ body {
                             color: #000;
 
                             &:hover {
-                                background-color: #171515;
+                                background-color: #000;
                                 color: #fff;
                                 border-color: #84b42e;
 
