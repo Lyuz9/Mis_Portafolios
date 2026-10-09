@@ -16,6 +16,10 @@
     src: url('../resources/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #010302;
     display: flex;
